@@ -285,11 +285,20 @@ p:hover {
 
 /**********************************************************/
 /**Back To Top*********************************************/
-
+#back_to_top{
+    position: fixed;
+    right: 0;
+    bottom:0;
+    background-color: black;
+    padding:.5rem;
+    margin-right:.3rem;
+    margin-bottom:.4rem;
+    opacity: .7;
+    border-radius: 10%;
+}
 
 /**********************************************************/
 /**Footer**************************************************/
-
 #copy_right {
     height: 5rem;
     padding-top: 2rem
