@@ -12,6 +12,7 @@ Description: This is website , blog project
     --primary: #0c7489;
     --icon-color: rgb(19, 129, 240);
     --template-red: red;
+    --template-icon:blueviolet;
 }
 
 /**********************************************************/
@@ -89,6 +90,9 @@ p:hover {
     text-transform: uppercase;
     text-decoration: underline;
     text-shadow: 0.2px 0.2px rgba(0, 0, 0, .5);
+    text-align: center;
+    font-size:3rem;
+    margin:2rem auto;
 }
 
 .tag_header:hover {
@@ -201,6 +205,12 @@ p:hover {
     z-index: 1;
 }
 
+/* MENU*/
+#collapsible_navbar_second li a i{
+    font-size: 1.2rem;
+    margin-right:.5rem;
+}
+
 /* LOGO */
 #navbar_second a i {
     color: red;
@@ -235,6 +245,24 @@ padding-top:12rem;
 /**********************************************************/
 /**Main****************************************************/
 
+/* PRODUCT */
+#product{
+height: 40rem;
+padding:2rem;
+}
+
+#product h4{
+text-align: center;
+text-transform: uppercase;
+font-weight: 400;
+}
+
+#product i{
+    margin-left:40%;
+    font-size: 7rem;
+    margin-bottom:.5rem;
+    color:var(--template-icon);
+}
 
 /**********************************************************/
 /**Back To Top*********************************************/
