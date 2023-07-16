@@ -203,8 +203,8 @@ p:hover {
 }
 
 .dark_mode_class {
-    background-color: var(--template-color);
-    color: var(--template-bg);
+    background-color: black;
+    color:white;
 }
 
 /**********************************************************/

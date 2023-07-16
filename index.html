@@ -47,6 +47,7 @@
 
     <!-- external CSS -->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body data-bs-spy="scroll" data-bs-targe="#navbar_second">
@@ -84,11 +85,18 @@
                         aria-controls="register"></i>
                 </li>
                 <li>
-                    <i class="fa-solid fa-moon" id="dark_mode_id"></i>
+                    <i class="fa-solid fa-moon" id="dark_mode_id" onclick="darkLight()"></i>
                 </li>
             </ul>
         </div>
     </nav>
+    <script>
+        // Dark Mode
+let darkLight=()=>{
+    alert("deneme")
+    let elementData=document.body.classList.toggle("dark_mode_class");
+}
+    </script>
 
     <!-- LOGIN -->
     <div class="offcanvas offcanvas-start bg-dark text-white" data-bs-scroll="true" tabindex="-1" id="login"
