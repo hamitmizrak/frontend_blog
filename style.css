@@ -169,7 +169,6 @@ p:hover {
     font-size: 1.2rem;
     margin-right: .2rem;
     color: var(--icon-color);
-
 }
 
 .navbar_first_left li i:hover,
@@ -195,6 +194,11 @@ p:hover {
 
 /**********************************************************/
 /**Navbar Second********************************************/
+#navbar_second{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
 /* LOGO */
 #navbar_second a i {
@@ -207,6 +211,8 @@ p:hover {
     color: rgb(185, 153, 255);
     font-size: 2.3rem;
     box-shadow: 1px 1px 10px 1px rgba(232, 15, 15, 0.8);
+    transition: 2s all;
+    transform:rotate(180deg) ;
 }
 
 /* SEARCH */
@@ -214,7 +220,6 @@ p:hover {
     background-color: var(--template-bg);
     color: var(--template-red);
 }
-
 
 /**********************************************************/
 /**Header**************************************************/
@@ -236,9 +241,3 @@ padding-top:12rem;
 
 /**********************************************************/
 /**Footer**************************************************/
-
-/* 1699
-Register Login Modal
-Header 
-Footer 
-Main */
