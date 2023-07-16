@@ -1,10 +1,17 @@
+// Search
+$(document).ready(function () {
+    const searchData = ["Adana", "Balıkesir", "Ceyhan", "Diyarbakır", "Edirne", "Malatya", "Manisa", "Yozgat"];
+    $("#search_id").autocomplete({
+        source: searchData
+    });
+});
+
 
 // Dark Mode
-let darkLight=()=>{
-    let elementData=document.body.classList.toggle("dark_mode_class");
+let darkLight = () => {
+    let elementData = document.body.classList.toggle("dark_mode_class");
 }
 
-// Search
 
 // now date
 const nowDate = () => {

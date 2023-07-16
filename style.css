@@ -80,7 +80,7 @@ p:hover {
     padding: .5rem .4rem;
     opacity: .6;
     border-radius: 4%;
-    
+
 }
 
 .my_clearfix::before {
@@ -204,7 +204,7 @@ p:hover {
 
 .dark_mode_class {
     background-color: black;
-    color:white;
+    color: white;
 }
 
 /**********************************************************/
@@ -273,26 +273,51 @@ p:hover {
 }
 
 /* ABOUT ME */
-#about_me{
+#about_me {
     background-color: #212529;
-    color:var(--template-color);
-    padding:5rem .1rem 4rem;
+    color: var(--template-color);
+    padding: 5rem .1rem 4rem;
     background-image: url('./img/sunset-g36887b7dd_1280.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 50rem;
+}
+
+/*NEWS PAPER*/
+#newspaper {
+    padding-top: 3rem;
+    height: 65rem;
+}
+
+/* BLOG */
+#blog {
+    position: relative;
+}
+
+#blog::before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    content: "";
+    background-image: url('./img/man-gb06fabaf0_1280.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .8;
 }
 
 /**********************************************************/
 /**Back To Top*********************************************/
-#back_to_top{
+#back_to_top {
     position: fixed;
     right: 0;
-    bottom:0;
+    bottom: 0;
     background-color: black;
-    padding:.5rem;
-    margin-right:.3rem;
-    margin-bottom:.4rem;
+    padding: .5rem;
+    margin-right: .3rem;
+    margin-bottom: .4rem;
     opacity: .7;
     border-radius: 10%;
 }
