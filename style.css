@@ -140,6 +140,7 @@ p:hover {
     color: white;
     max-width: var(--max-width);
     max-height: 5rem;
+    padding-top:.2rem;
 }
 
 .navbar_first_left {
@@ -241,3 +242,8 @@ padding-top:12rem;
 
 /**********************************************************/
 /**Footer**************************************************/
+
+#copy_right{
+    height: 5rem;
+    padding-top:2rem
+}
