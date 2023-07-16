@@ -12,7 +12,7 @@ Description: This is website , blog project
     --primary: #0c7489;
     --icon-color: rgb(19, 129, 240);
     --template-red: red;
-    --template-icon:blueviolet;
+    --template-icon: blueviolet;
 }
 
 /**********************************************************/
@@ -91,8 +91,8 @@ p:hover {
     text-decoration: underline;
     text-shadow: 0.2px 0.2px rgba(0, 0, 0, .5);
     text-align: center;
-    font-size:3rem;
-    margin:2rem auto;
+    font-size: 3rem;
+    margin: 2rem auto;
 }
 
 .tag_header:hover {
@@ -137,6 +137,13 @@ p:hover {
     -webkit-box-orient: vertical;
 }
 
+.line-clamp30 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 30;
+    -webkit-box-orient: vertical;
+}
+
 /**********************************************************/
 /**Navbar First********************************************/
 #navbar_first {
@@ -144,7 +151,7 @@ p:hover {
     color: white;
     max-width: var(--max-width);
     max-height: 5rem;
-    padding-top:.2rem;
+    padding-top: .2rem;
 }
 
 .navbar_first_left {
@@ -199,16 +206,16 @@ p:hover {
 
 /**********************************************************/
 /**Navbar Second********************************************/
-#navbar_second{
+#navbar_second {
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
 /* MENU*/
-#collapsible_navbar_second li a i{
+#collapsible_navbar_second li a i {
     font-size: 1.2rem;
-    margin-right:.5rem;
+    margin-right: .5rem;
 }
 
 /* LOGO */
@@ -223,7 +230,7 @@ p:hover {
     font-size: 2.3rem;
     box-shadow: 1px 1px 10px 1px rgba(232, 15, 15, 0.8);
     transition: 2s all;
-    transform:rotate(180deg) ;
+    transform: rotate(180deg);
 }
 
 /* SEARCH */
@@ -234,34 +241,43 @@ p:hover {
 
 /**********************************************************/
 /**Header**************************************************/
-#header{
+#header {
     background-image: url('./img/header1.jpg');
     background-size: cover;
-    z-index:-1;
-height: 88vh;
-padding-top:12rem;
+    z-index: -1;
+    height: 60vh;
+    padding-top: 6rem;
 }
 
 /**********************************************************/
 /**Main****************************************************/
-
 /* PRODUCT */
-#product{
-height: 40rem;
-padding:2rem;
+#product {
+    padding: 2rem;
 }
 
-#product h4{
-text-align: center;
-text-transform: uppercase;
-font-weight: 400;
+#product h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
-#product i{
-    margin-left:40%;
-    font-size: 7rem;
-    margin-bottom:.5rem;
-    color:var(--template-icon);
+#product i {
+    margin-left: 40%;
+    font-size: 5rem;
+    margin-bottom: .5rem;
+    color: var(--template-icon);
+}
+
+/* ABOUT ME */
+#about_me{
+    background-color: #212529;
+    color:var(--template-color);
+    padding:5rem .1rem 4rem;
+    background-image: url('./img/sunset-g36887b7dd_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /**********************************************************/
@@ -271,7 +287,7 @@ font-weight: 400;
 /**********************************************************/
 /**Footer**************************************************/
 
-#copy_right{
+#copy_right {
     height: 5rem;
-    padding-top:2rem
+    padding-top: 2rem
 }
